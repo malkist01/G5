@@ -71,7 +71,6 @@ jobs:
             fi
          fi
          echo "kernel-config: ${{ inputs.kernel-config }}"
-         echo "kpm: ${{ inputs.kernelsu }}"
          echo "disable-lto: ${{ inputs.disable-lto }}"
          echo "Anjani Project"
     - name: Checkout
